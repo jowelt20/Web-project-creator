@@ -1,0 +1,272 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+.logo{
+	width:200px;
+	height:70px;
+	float:left;
+	margin-left:34px;
+	padding-top:1px;
+
+}
+.logo img{
+	width:170px;
+	margin-left:10px;
+	margin-top:-10px;
+}
+
+
+.main{
+	
+	height:100vh;
+	width:100%;
+	background-position:center;
+	background-size:cover;
+	
+}
+.navigationber{
+	width:1200px;
+	height:70px;
+	margin:auto;
+}	
+
+
+.menuber{
+	height:70px;
+	width:400px;
+	float:left;
+	margin-left:-4px;
+	padding-top:30px;
+	text-align:center;
+}
+ul li.active a{
+	color:red;
+}
+
+ul{
+	float:left;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+ul li{
+	margin-left:35px;
+	list-style:none;
+	margin-top:20px;
+	font-size:20px;
+	font-family:arial;
+	
+}
+ul li a{
+	text-decoration:none;
+	color:black;
+	font-family:arial;
+	font-weight:bold;
+	transition: 0.5s ease-in-out;
+}
+ul li a:hover{
+	color:red;
+}
+
+
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	width:1200px;
+	margin-top:60px;
+	margin-left:69px;
+	background-position:center;
+	background-size:cover;
+}
+
+
+.container .box{
+	width:350px;
+	margin:left;
+	position:relative;
+	padding:35px;
+	background:transparent;
+	box-shadow:0px 5px 15px rgba(0,0,0,.1);
+	border-radius:4px;
+	margin:20px;
+	box-sizing: border-box;
+	overflow:hidden;
+	text-align:center;
+	transition:1s;
+}
+.container .box .icon{
+	position:relative;
+	width:110px;
+	margin:left;
+	height:110px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:0 auto;
+	border-radius:50%;
+	background-size:cover;
+	transition:1.5s;
+}
+
+.container .box:nth-child(1) .icon{
+background:url(juwel.jpg);
+	background-size:cover;
+}
+
+.container .box:nth-child(1):hover .icon{
+	box-shadow:0 0 0 400px #00008b
+}
+
+
+
+
+
+.container .box:nth-child(2) .icon{
+background:url(dilruba.jpg);
+background-size:cover;
+}
+
+.container .box:nth-child(2):hover .icon{
+	box-shadow:0 0 0 400px #006400;
+}
+
+.container .box:nth-child(3) .icon{
+background:url(tarik.jpg);
+	background-size:cover;
+}
+
+.container .box:nth-child(3):hover .icon{
+	box-shadow:0 0 0 400px #e91e63;
+}
+
+.container .box:nth-child(4) .icon{
+background:url(soyeb.jpg);
+	background-size:cover;
+}
+
+.container .box:nth-child(4):hover .icon{
+	box-shadow:0 0 0 400px #006400;
+}
+
+.container .box:nth-child(5) .icon{
+background:url(shafi.jpg);
+	background-size:cover;
+}
+
+.container .box:nth-child(5):hover .icon{
+	box-shadow:0 0 0 400px #00008b
+;
+}
+
+.container .box:nth-child(6) .icon{
+background:url(niloy.jpg);
+	background-size:cover;
+}
+
+.container .box:nth-child(6):hover .icon{
+	box-shadow:0 0 0 400px #006400
+;
+}
+
+.container .box:nth-child(7) .icon{
+background:url(tusdid.jpg);
+	background-size:cover;
+}
+
+.container .box:nth-child(7):hover .icon{
+	box-shadow:0 0 0 400px #FF1493;
+;
+}
+
+.container .box:nth-child(8) .icon{
+background:url(arfan.jpg);
+	background-size:cover;
+}
+
+.container .box:nth-child(8):hover .icon{
+	box-shadow:0 0 0 400px #006400;
+;
+}
+
+.container .box:nth-child(9) .icon{
+background:url(sourov.jpg);
+	background-size:cover;
+}
+
+.container .box:nth-child(9):hover .icon{
+	box-shadow:0 0 0 400px #FF1493;
+;
+}
+
+.container .box:nth-child(10) .icon{
+background:url(sojib.jpg);
+	background-size:cover;
+}
+
+.container .box:nth-child(10):hover .icon{
+	box-shadow:0 0 0 400px #006400;
+;
+}
+
+.container .box:nth-child(11) .icon{
+background:url(tamim.jpg);
+	background-size:cover;
+}
+
+.container .box:nth-child(11):hover .icon{
+	box-shadow:0 0 0 400px #FF1493;
+;
+}
+
+.container .box:nth-child(12) .icon{
+background:url(sohag.jpg);
+	background-size:cover;
+}
+
+.container .box:nth-child(12):hover .icon{
+	box-shadow:0 0 0 400px #00008b
+;
+}
+
+
+
+.container .box .content{
+	position:relative;
+	z-index:1
+	transition:0.5s;
+	color:black;
+	font-size:20px;
+	text-align:center;
+}
+.container .box .content h3{
+	text-align:center;
+	font-weight:bold;
+	margin:10px 0;
+	padding:0;
+	color:white;
+	
+}
+
+.container .box:hover .content{
+	color:white;
+	cursor:pointer;
+}
+.container .box .content p{
+	margin-left:0px;
+	padding:0px;
+	text-align:center;
+	color:white;
+}
+a{
+	display:inline-block;
+	padding:1px 10px;
+	color:white;
+}
+.content a i{
+	font-size:20px;
+}
+
+

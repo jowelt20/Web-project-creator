@@ -1,0 +1,184 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+
+.main{
+	width:100%;
+	background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.7)50%), url(background.jpg);
+	background-position:center;
+	background-size:cover;
+	height:100vh;
+}
+.navigationber{
+	width:1200px;
+	height:70px;
+	margin:auto;
+}
+
+.icon{
+	width:215px;
+	height:70px;
+	float:left;
+	margin-left:5px;
+	padding-top:15px;
+
+}
+.logo{
+	color:Red;
+	font-weight:bold;
+	cursor:pointer;
+	font-size:30px;
+}
+
+.menuber{
+	width:400px;
+	float:left;
+	margin-left:115px;
+	height:70px;
+	text-align:center;
+}
+ul li.active a{
+	color:red;
+}
+
+ul{
+	float:left;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+ul li{
+	margin-left:40px;
+	list-style:none;
+	margin-top:20px;
+	font-size:20px;
+	font-family:arial;
+	
+}
+ul li a{
+	text-decoration:none;
+	color:white;
+	font-family:arial;
+	font-weight:bold;
+	transition: 0.5s ease-in-out;
+}
+ul li a:hover{
+	color:red;
+}
+
+.content{
+	width:800px;
+	height:800px;
+	color:white;
+	margin:auto;
+	height:auto;
+	position:relative;
+	padding-top:90px;
+	margin-left:80px;
+	
+}
+.content h1{
+	font-family: 'Time new roman';
+	font-size:45px;
+}
+
+.content span{
+	color:Red;
+}
+
+
+
+.peragraph{
+	padding-top:10px;
+	font-family:arial;
+	font-size:18px;
+	letter-spacing:1.2px;
+	line-height:20px;
+}
+
+.from{
+	width:250px;
+	height:310px;
+	background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+	position:absolute;
+	left:870px;
+	top:120px;
+	border-radius:10px;
+	padding:25px;
+	transition:0.8s;
+	
+}
+.from:hover{
+	background:linear-gradient(to top, rgba(0,0,0,0.9)50%, rgba(0,0,0,0.9)50%),url(background.jpg);
+	background-position:center;
+	background-size:cover;
+}
+.from h2{
+	width:220px;
+	height:35px;
+	font-family:sans-serif;
+	text-align:center;
+	color:red;
+	font-weight:bold;
+	background:white;
+	font-size:22px;
+	border-radius:9px;
+	padding-top:5px;
+	margin-left:13px;
+	
+}
+.from input{
+	width:245px;
+	height:30px;
+	background:transparent;
+	border-bottom:1px solid red;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	font-family:sans-serif;
+	font-size:15px;
+	letter-spacing:1px;
+	margin-top:30px;
+	color:white;
+	
+}
+.from input:focus{
+	outline:none;
+}
+
+::placeholder{
+	color:white;
+	font-family:arial;
+}
+
+.btn{
+	width:220px;
+	height:35px;
+	font-family:sans-serif;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	background:red;
+	font-size:22px;
+	border-radius:9px;
+	margin-top:30px;
+	cursor:pointer;
+	margin-left:13px;
+}
+.btn a{
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+	
+	
+}
+.from button:hover{
+	background:white;
+	color:black;
+}
+.from button{
+	transition:0.5s;
+}
